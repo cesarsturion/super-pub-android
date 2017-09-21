@@ -29,7 +29,7 @@ android {
                 fabric_api_key: System.getenv("FABRIC_API_KEY")
         ]
 
-        resValue "string", "facebook_id", System.getenv("FACEBOOK_ID")
+        //resValue "string", "facebook_id", System.getenv("FACEBOOK_ID")
 
         playAccountConfig = playAccountConfigs.defaultAccountConfig
 
@@ -105,7 +105,7 @@ android {
             buildConfigField "String", "FACEBOOK_GRAPH_API",
                     "\"https://graph.facebook.com/\""
 
-            resValue "string", "google_maps_api_key", System.getenv("GOOGLE_MAPS_API_KEY")
+            //resValue "string", "google_maps_api_key", System.getenv("GOOGLE_MAPS_API_KEY")
 
             minifyEnabled false
             // shrinkResources true
